@@ -980,5 +980,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94071a64dd0e27043ab3cfd5780c8504, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlapForce: 7
+  FlapForce: 5
   JumpAudioSource: {fileID: 0}

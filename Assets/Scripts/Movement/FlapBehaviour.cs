@@ -22,8 +22,8 @@ public class FlapBehaviour : MonoBehaviour
     {
         if (Input.GetButtonDown("Flap"))
         {
-            JumpAudioSource.Play();
             _rigidbody.AddForce(new Vector3(0, FlapForce, 0), ForceMode.Impulse);
+            JumpAudioSource.Play();
         }
     }
 }
